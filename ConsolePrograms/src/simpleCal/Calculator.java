@@ -76,7 +76,7 @@ public class Calculator {
 		int num1 = reader.readInt();
 		System.out.print("### 두번째 정수를 입력하세요 >");
 		int num2 = reader.readInt();
-		sum = num1*num2;
+		sum = (long)num1*num2;
 		System.out.print("### 합계 =" + sum);
 		System.out.println();
 	}
